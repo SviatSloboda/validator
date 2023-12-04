@@ -102,7 +102,7 @@ public class PasswortValidator {
                 } else{
                     detectSequence = 0;
                 }
-                if(detectSequence == 4) return false;
+                if(detectSequence == 3) return false;
             }
         }
         return true;
